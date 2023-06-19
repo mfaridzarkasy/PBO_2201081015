@@ -1,25 +1,22 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
  */
-package faridz040423;
+package Faridz040423;
 
 /**
  *
- * @author ACER
+ * @author Slime1
  */
-public class ContohArray {
-    public static void main(String[] args){
-        boolean hasil[] = {true, false};
-        double grade[] = {70,80,60};
-        
-        String hari[] = {"Senin","Selasa","Rabu","Kamis","Jum'at","Sabtu","Minggu"};
-        
-         System.out.println("Hasil "+hasil[0]);
-         System.out.println("Grade "+grade[1]);
-        
-        
-        
+public class contohArray {
+     public static void main(String[] args) {
+        boolean hasil[] = { true, false };
+        double grade[] = { 70, 80, 90 };
+
+        String hari[] = { "senin", "selasa", "rabu", "kamis", "jumat", "sabtu", "minggu" };
+
+        System.out.print(hasil[0]);
     }
     
 }

@@ -1,23 +1,25 @@
+package Faridz280323;
+
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
  */
-package faridz280323;
 
 /**
  *
- * @author TUF GAMING
+ * @author Slime1
  */
-public class Latihan41 {
+public class latihan41 {
     public static void main(String[] args){
-        int number = 10;
-        char letter = 'a';
+        int number =10;
+        char latter = 'a';
         boolean result = true;
-        String str = "hello"; 
+        String str ="hello";
         
-        System.out.println("Number  = "+number);
-        System.out.println("Letter  = "+letter);
-        System.out.println("result  = "+result);
-        System.out.println("String  = "+str);
+        System.out.println("Number : "+number);
+        System.out.println("latter : "+latter);
+        System.out.println("result : "+result);
+        System.out.println("str : "+str);
     }
 }

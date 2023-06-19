@@ -1,21 +1,31 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
  */
-package faridz280323;
-import javax.swing.JOptionPane;
+package Faridz280323;
+
+import javax.swing.JOptionPane; 
 /**
  *
- * @author TUF GAMING
+ * @author Slime1
  */
 public class latihan52 {
-    public static void main(String[] args){
-        String word1 = JOptionPane.showInputDialog("enter word1");
-        String word2 = JOptionPane.showInputDialog("enter word2");
-        String word3 = JOptionPane.showInputDialog("enter word3");
-        
-        String message = word1 + "" + word2 + "" + word3;
-        
-        JOptionPane.showMessageDialog(null,message);
-    }
+    public static void main (String[] args)
+	{
+		//input OptionPane1
+	String name = "";
+	name = JOptionPane.showInputDialog("Please enter your words 1");
+	
+		//input OptionPane2
+	String nama = "";
+	nama = JOptionPane.showInputDialog("Please enter your words 2");
+	
+		//input OptionPane3
+	String namawa = "";
+	namawa = JOptionPane.showInputDialog("Please enter your words 3 ");
+	
+	String msg = name +" "+ nama +" "+ namawa ;
+	JOptionPane.showMessageDialog(null, msg);
+		}	
 }

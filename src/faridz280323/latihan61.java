@@ -1,36 +1,53 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
  */
-package faridz280323;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+package Faridz280323;
+
+import javax.swing.JOptionPane;
 /**
  *
- * @author TUF GAMING
+ * @author Slime1
  */
 public class latihan61 {
-    public static void main(String[] args) throws IOException {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+    public static void main(String[]args)
+        {
+        int a=0;
+        int b=0;
+        int c=0;
+        int rata=0;
 
-        System.out.print("Enter exam1 score: ");
-        double exam1 = Double.parseDouble(reader.readLine());
+        String input1="";
+        String input2="";
+        String input3="";
+        String hasil="";
+        String senyum="";
 
-        System.out.print("Enter exam2 score: ");
-        double exam2 = Double.parseDouble(reader.readLine());
+        input1=JOptionPane.showInputDialog("Nilai1:" );
+        input2=JOptionPane.showInputDialog("Nilai2:" );
+        input3=JOptionPane.showInputDialog("Nilai3:" );
 
-        System.out.print("Enter exam3 score: ");
-        double exam3 = Double.parseDouble(reader.readLine());
+        a=Integer.parseInt(input1);
+        b=Integer.parseInt(input2);
+        c=Integer.parseInt(input3);
 
-        double average = (exam1 + exam2 + exam3) / 3.0;
+        rata=(a+b+c)/3;
 
-        System.out.println("Average score: " + average);
+        if(rata>60){
+        senyum=":D";
+        }else
+        senyum=":(";
 
-        if (average >= 60.0) {
-            System.out.println(":)");
-        } else {
-            System.out.println(":(");
+        hasil +=(hasil)+(" Menghitung Rata-rata")+"\n";
+        hasil +="\n";
+        hasil +="Nilai 1:"+Integer.toString(a)+"\n";
+        hasil +="Nilai 2:"+Integer.toString(b)+"\n";
+        hasil +="Nilai 3:"+Integer.toString(c)+"\n";
+
+        hasil +="\n";
+        hasil +="Hasil Rata-rata= "+Integer.toString(rata)+"\n"+"\n"+"\n";
+        JOptionPane.showMessageDialog(null,hasil+"Ekspresi"+" "+senyum);
         }
-    }
+
 }
